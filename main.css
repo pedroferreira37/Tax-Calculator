@@ -1,0 +1,55 @@
+legend {
+  width: 60px;
+    padding: 2px;
+    margin-left: calc(50% - 35px - 15px);
+}
+
+input {
+  display: block;
+  margin-bottom: .875rem;
+  
+}
+
+fieldset {
+  padding-left: 3rem;
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 5px;
+}
+
+
+  div {
+    width: 400px;
+    margin: 15rem auto;
+  }
+
+input[type="radio"] {
+  display: inline;
+}
+
+form {
+  margin: 0 auto;
+  width: 300px;
+  
+}
+
+input[type="button"] {
+  color: white;
+  background: #24a0ed ;
+  margin-top: 2rem;
+  width: 180px;
+  outline: none;
+  border: none;
+  height: 2rem;
+}
+
+body {
+  color: #333;
+}
+
+input {
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(206, 206, 206);
+  padding: 10px;
+}
+

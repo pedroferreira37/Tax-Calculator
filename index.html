@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>TAX CALC</title>
+</head>
+
+<body>
+	<div>
+    <form>
+      <fieldset>
+        <legend>Impostos</legend>
+        <label for="salary">
+            Salário:
+            <input type="text" name="salary">
+          </label>
+          <label for="dependents">
+            Quantidade de dependentes:
+            <input type="number" name="dependents">
+          </label>
+          <label for="retiree">
+            Aposentado?
+            <input type="radio" name="retiree" value="Yes" checked>Sim
+            <input type="radio" name="retiree" value="No">Não
+          </label>
+          <input type="button" value="Calcular" id="calc"/>
+      </fieldset>
+    
+    </form>
+  </div>
+
+
+	<script src="index.js">
+	</script>
+</body>
+</html>
